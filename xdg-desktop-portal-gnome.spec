@@ -4,10 +4,10 @@
 # Using build pattern: meson
 #
 Name     : xdg-desktop-portal-gnome
-Version  : 44.2
-Release  : 2
-URL      : https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome/-/archive/44.2/xdg-desktop-portal-gnome-44.2.tar.gz
-Source0  : https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome/-/archive/44.2/xdg-desktop-portal-gnome-44.2.tar.gz
+Version  : 45.0
+Release  : 3
+URL      : https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome/-/archive/45.0/xdg-desktop-portal-gnome-45.0.tar.gz
+Source0  : https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome/-/archive/45.0/xdg-desktop-portal-gnome-45.0.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -74,15 +74,15 @@ services components for the xdg-desktop-portal-gnome package.
 
 
 %prep
-%setup -q -n xdg-desktop-portal-gnome-44.2
-cd %{_builddir}/xdg-desktop-portal-gnome-44.2
+%setup -q -n xdg-desktop-portal-gnome-45.0
+cd %{_builddir}/xdg-desktop-portal-gnome-45.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1693267392
+export SOURCE_DATE_EPOCH=1695769028
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
