@@ -1,17 +1,39 @@
-Changes in 46.2
+Changes in 47.1
 =================
 
-- Various behavioral and accessibility fixes to the ScreenCast portal dialog
-- Translation updates
+- Fix the capabilities for the print dialog
 
-Changes in 46.1
+Changes in 47.0
 =================
 
-- Remove D-Bus call timeout from Access portal requests that are proxied to
-  GNOME Shell. This prevents the Access portal from failing requests if the
-  user doesn't click on a dialog for more than 25 seconds.
-- Various fixes to the ScreenCast portal dialog
 - Translation updates
+
+Changes in 47.rc
+=================
+
+- Fix restoring last used folder in the File Chooser portal
+- Fix selecting multiple window on single selection
+- Do not block xdg-desktop-portal-gnome when connecting to Nautilus
+- Fix incorrectly set mimetype in the File Chooser portal
+- Translation updates
+
+Changes in 47.beta
+=================
+
+- Use GNOME Shell's private API for the Notification portal
+- Use Nautilus for the File Chooser portal
+- Translation updates
+
+Changes in 47.alpha
+=================
+
+- Expose the new accent colors setting
+- Various cleanups to the screencast widget
+- Add support for the "supported_output_file_formats" option in the Print
+  portal
+- Fix default layout mode of the ScreenCast/Remote Desktop portal
+- Translation updates
+
 
 Changes in 46.0
 =================
